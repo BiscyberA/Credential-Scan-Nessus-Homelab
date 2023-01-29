@@ -25,11 +25,11 @@ Both Windows10 and Nessus home after successfully installed: <br/>
 <br />
 <br />
 Used ipconfig on command prompt to check IP address of the Windows10 Machine:  <br/>
-<img src="https://imgur.com/0VbezUL.png" height="80%" width="80%" />
+<img src="https://imgur.com/PfJWmAY.png" height="80%" width="80%" />
 <br />
 <br />
 Used the local machine to ping IP address of the windows10 host to determine its reachability for communication: Ping request timed out due to Firewall enabled on Windows10 and blocking any ping request <br/>
-<img src="https://imgur.com/OOfT9tZ.png" height="80%" width="80%" />
+<img src="https://imgur.com/ffEAy1E.png" height="80%" width="80%" />
 <br />
 <br />
  Disabled Firewall to allow ping request <br/>
@@ -37,7 +37,7 @@ Used the local machine to ping IP address of the windows10 host to determine its
 <br />
 <br />
 Local machine successflly received reply from Windows10 host after disabling firewall <br/>
-<img src="https://imgur.com/ujHp4bI.png" height="80%" width="80%" />
+<img src="https://imgur.com/ZzimULX.png" height="80%" width="80%" />
 <br />
 <br />
 Clicked on Create a new scan on Nessus home page: Opens the scan template   <br/>
@@ -53,7 +53,7 @@ Launched Scan : Scan Running <br/>
 <br />
 <br />
 Scan Completed: Showing Scan Details :Color Coding severity of Vulnerability:<br/>
-<img src="https://imgur.com/CFXrIow.png" height="80%" width="80%" />
+<img src="https://imgur.com/zqYgTGP.png" height="80%" width="80%" />
 <br />
 <br />
 Vulnerabilities Results:  <br/>
@@ -90,6 +90,37 @@ Reconfigured my scan to perform a credential scan:  <br/>
 <br />
 Input the credential and saved the scan:  <br/>
 <img src="https://imgur.com/bDhNch5.png" height="80%" width="80%" />
+<br />
+<br />
+Credential Scan Completed: Showing Scan Details :Color Coding severity of Vulnerability:  <br/>
+<img src="https://imgur.com/GeYZKuW.png" height="80%" width="80%" />
+<br />
+<br />
+Credential Scan Vulnerabilities Results :  <br/>
+<img src="https://imgur.com/wrSyBdB.png" height="80%" width="80%" />
+<br />
+<br />
+Mixed Result Details:Mixture of critical,High,and Info <br/>
+<img src="https://imgur.com/2XQxNc9.png" height="80%" width="80%" />
+<br />
+<br />
+Input the credential and saved the scan:  <br/>
+<img src="https://imgur.com/bDhNch5.png" height="80%" width="80%" />
+<br />
+<br />
+Input the credential and saved the scan:  <br/>
+<img src="https://imgur.com/bDhNch5.png" height="80%" width="80%" />
+<br />
+<br />
+Input the credential and saved the scan:  <br/>
+<img src="https://imgur.com/bDhNch5.png" height="80%" width="80%" />
+<br />
+<br />
+Input the credential and saved the scan:  <br/>
+<img src="https://imgur.com/bDhNch5.png" height="80%" width="80%" />
+
+
+
 
 
 
