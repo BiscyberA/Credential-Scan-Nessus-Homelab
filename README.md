@@ -39,11 +39,11 @@ Local machine successflly received reply from Windows10 host after disabling fir
 <br />
 <br />
 Clicked on Create a new scan on Nessus home page: Opens the scan template   <br/>
-<img src="https://imgur.com/IMCTsBC.png" height="80%" width="80%" />
+<img src="https://imgur.com/1Poa8uO.png" height="80%" width="80%" />
 <br />
 <br />
 Clicked on Basic Network Scan: Opens a new scan page: Input name of scan: Input target Ip address(Windows10 host):Saved scan<br/>
-<img src="https://imgur.com/YImsxPd.png" height="80%" width="80%" />
+<img src="https://imgur.com/bQnsJqy.png" height="80%" width="80%" />
 <br />
 <br />
 Launched Scan : Scan Running <br/>
@@ -102,28 +102,11 @@ Mixed Result Details:Mixture of critical,High,and Info <br/>
 <img src="https://imgur.com/2XQxNc9.png" height="80%" width="80%" />
 <br />
 <br />
-Input the credential and saved the scan:  <br/>
-<img src="https://imgur.com/bDhNch5.png" height="80%" width="80%" />
-<br />
-<br />
-Input the credential and saved the scan:  <br/>
-<img src="https://imgur.com/bDhNch5.png" height="80%" width="80%" />
-<br />
-<br />
-Input the credential and saved the scan:  <br/>
-<img src="https://imgur.com/bDhNch5.png" height="80%" width="80%" />
-<br />
-<br />
-Input the credential and saved the scan:  <br/>
-<img src="https://imgur.com/bDhNch5.png" height="80%" width="80%" />
 
 
 
+Watch this Video Tutorial <br/>
 
-
-
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
