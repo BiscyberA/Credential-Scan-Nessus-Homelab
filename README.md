@@ -18,15 +18,15 @@ In this lab we will cover vulnerability scanning and vulnerability remediation. 
 <h2>Lab walk-through:</h2>
 
 <p align="center">
-Both Windows10 and Nessus home after successfully installed: <br/>
+Windows10 and Nessus home page after successfully installed: <br/>
 <img src="https://imgur.com/9De1u6V.png" height="80%" width="80%"/>
 <br />
 <br />
-Used ipconfig on command prompt to check IP address of the Windows10 Machine:  <br/>
+Ipconfig was used on command prompt to check IP address of the Windows10 Machine:  <br/>
 <img src="https://imgur.com/PfJWmAY.png" height="80%" width="80%" />
 <br />
 <br />
-Used the local machine to ping IP address of the windows10 host to determine its reachability for communication: Ping request timed out due to Firewall enabled on Windows10 and blocking any ping request <br/>
+My windows local machine was used to ping IP address of the windows10 host to determine its reachability for communication: Ping request timed out due to Firewall enabled on Windows10,blocking any communication <br/>
 <img src="https://imgur.com/ffEAy1E.png" height="80%" width="80%" />
 <br />
 <br />
