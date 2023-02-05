@@ -88,7 +88,7 @@ Mixed Result Details:Mixture of critical,High,and Info <br/>
 <br />
 
 <h2>Remediation</h2>
-I disable remote registry, disabled SMB shares, Enabled user account control, deleted LocalAccountTokenFilterPolicy from the Registry, run Windows update and run the scan again
+I disable remote registry, disabled SMB shares, Enabled user account control, deleted LocalAccountTokenFilterPolicy from the Registry, run Windows update and run the scan again. If most of the vulnerabilty requires you to run an update of a system or third-party application. it is best to automate a script to run these update instead of individually updating them.
 
 Scan Completed: Showing Scan Details :Color Coding severity of Vulnerability:<br/>
 <img src="https://imgur.com/zqYgTGP.png" height="80%" width="80%" />
