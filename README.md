@@ -38,35 +38,11 @@ Local machine successflly received reply from Windows10 host after disabling fir
 <img src="https://imgur.com/ZzimULX.png" height="80%" width="80%" />
 <br />
 <br />
-Clicked on Create a new scan on Nessus home page: Opens the scan template   <br/>
-<img src="https://imgur.com/1Poa8uO.png" height="80%" width="80%" />
-<br />
-<br />
-Clicked on Basic Network Scan: Opens a new scan page: Input name of scan: Input target Ip address(Windows10 host):Saved scan<br/>
-<img src="https://imgur.com/bQnsJqy.png" height="80%" width="80%" />
-<br />
-<br />
-Launched Scan : Scan Running <br/>
-<img src="https://imgur.com/VGNr6JT.png" height="80%" width="80%" />
-<br />
-<br />
-Scan Completed: Showing Scan Details :Color Coding severity of Vulnerability:<br/>
-<img src="https://imgur.com/zqYgTGP.png" height="80%" width="80%" />
-<br />
-<br />
-Vulnerabilities Results:  <br/>
-<img src="https://imgur.com/xY9htKp.png" height="80%" width="80%" />
-<br />
-<br />
-SMB Vulnerability:  <br/>
-<img src="https://imgur.com/qFQYWWy.png" height="80%" width="80%" />
-<br />
-<br />
 Enabled Remote Registry:  <br/>
 <img src="https://imgur.com/fey5FJi.png" height="80%" width="80%" />
 <br />
 <br />
-Change User Account Control Settings to "Never Notify:  <br/>
+I disbaled User Account Control Settings to "Never Notify:This is not a good practices but the windows is not a domain so it has to be done to be able to scan it: I got this documentations from nessus  <br/>
 <img src="https://imgur.com/v6snDMP.png" height="80%" width="80%" />
 <br />
 <br />
@@ -74,20 +50,28 @@ Enabled Files and Printer Sharing:  <br/>
 <img src="https://imgur.com/fjhQ4FG.png" height="80%" width="80%" />
 <br />
 <br />
-Added LocalAccountTokenFilterPolicy to Registry:  <br/>
+Added LocalAccountTokenFilterPolicy key to the Registry: This is to further disable user account control for the remote account we are going to use to connect to the Windows 10 host during our scan <br/>
 <img src="https://imgur.com/xO2A7oo.png" height="80%" width="80%" />
 <br />
 <br />
-Set LocalAccountTokenFilterPolicy value to 1:  <br/>
+Set LocalAccountTokenFilterPolicy value to 1: Again,I got this documentation from Nessus on configure Windows host not a domain for credential scan <br/>
 <img src="https://imgur.com/FhOBlXf.png" height="80%" width="80%" />
 <br />
 <br />
-Reconfigured my scan to perform a credential scan:  <br/>
-<img src="https://imgur.com/GxsX0Ze.png" height="80%" width="80%" />
+Clicked on Create a new scan on Nessus home page: Opens the scan template   <br/>
+<img src="https://imgur.com/1Poa8uO.png" height="80%" width="80%" />
 <br />
 <br />
-Input the credential and saved the scan:  <br/>
+Clicked on Basic Network Scan: Opens a new scan page:<br/>
+<img src="https://imgur.com/bQnsJqy.png" height="80%" width="80%" />
+<br />
+<br />
+Configured the scan to perform a credential scan and saved the scan:  <br/>
 <img src="https://imgur.com/bDhNch5.png" height="80%" width="80%" />
+<br />
+<br />
+Launched Scan : Scan Running <br/>
+<img src="https://imgur.com/VGNr6JT.png" height="80%" width="80%" />
 <br />
 <br />
 Credential Scan Completed: Showing Scan Details :Color Coding severity of Vulnerability:  <br/>
@@ -103,9 +87,17 @@ Mixed Result Details:Mixture of critical,High,and Info <br/>
 <br />
 <br />
 
+<h2>Remediation</h2>
+I disable remote registry, disabled SMB shares, Enabled user account control, deleted LocalAccountTokenFilterPolicy from the Registry, run Windows update and run the scan again
 
-
-Watch this Video Tutorial <br/>
+Scan Completed: Showing Scan Details :Color Coding severity of Vulnerability:<br/>
+<img src="https://imgur.com/zqYgTGP.png" height="80%" width="80%" />
+<br />
+<br />
+Vulnerabilities Results:1 medium, the rest is info(Info means could not necessary be a vulnerability but something we should be aware: All critical and high vulnerability were remediated. <br/>
+<img src="https://imgur.com/xY9htKp.png" height="80%" width="80%" />
+<br />
+<br />
 
 </p>
 
